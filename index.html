@@ -18,50 +18,48 @@
 
 
 <picture>
-    <!-- square picture viewport for 960px and above-->
-    <source srcset="images/museum-800x800.jpg,
-                    images/museum-1600x1600.jpg 2x,
-                    images/museum-2400x2400.jpg 3x"
-            media="(min-width: 1600px)" />
-    
-    <source srcset="images/museum-640x640.jpg,
-                    images/museum-1280x1280.jpg 2x,
-                    images/museum-1920x1920.jpg 3x"
-            media="(min-width: 1280px)" />
-    
-    <source srcset="images/museum-480x480.jpg,
-                    images/museum-960x960.jpg 2x,
-                    images/museum-1440x1440.jpg 3x"
-            media="(min-width: 960px)" />
-    
-    <!-- landscape picture viewport is smaller than 960px -->
-    
-    <source srcset="images/museum-landscape-320x180.jpg,
-                    images/museum-landscape-640x360.jpg 2x,
-                    images/museum-landscape-960x540.jpg 3x"
-            media="(max-width: 320px)" />
 
-    <source srcset="images/museum-landscape-480x270.jpg,
-                    images/museum-landscape-960x540.jpg 2x,
-                    images/museum-landscape-1440x810.jpg 3x"
-            media="(max-width: 480px)" />
+
+    <!-- landscape picture for viewport smaller than 960px -->
+    
+    <source srcset="images/museum-320x180.jpg,
+                    images/museum-640x360.jpg 2x,
+                    images/museum-960x540.jpg 3x"
+            media="(max-width: 320px)">
+
+    <source srcset="images/museum-480x270.jpg,
+                    images/museum-960x540.jpg 2x,
+                    images/museum-1440x810.jpg 3x"
+            media="(min-width: 321px) and (max-width: 480px)">
 
     <source srcset="images/museum-720x405.jpg,
                     images/museum-1440x810.jpg 2x,
                     images/museum-2160x1215.jpg 3x"
-            media="(max-width: 720px)" />
+            media="(min-width: 481px) and (max-width: 720px)">
 
      <source srcset="images/museum-960x540.jpg,
                     images/museum-1920x1080.jpg 2x,
                     images/museum-2880x1620.jpg 3x"
-            media="(max-width: 959px)" />
+            media="(min-width: 721px) and (max-width: 959px)">
 
-    
 
-  
+    <!-- square picture viewport for 960px and above-->
+    <source srcset="images/museum-800x800.jpg,
+                    images/museum-1600x1600.jpg 2x,
+                    images/museum-2400x2400.jpg 3x"
+            media="(min-width: 1600px)">
     
+    <source srcset="images/museum-640x640.jpg,
+                    images/museum-1280x1280.jpg 2x,
+                    images/museum-1920x1920.jpg 3x"
+            media="(min-width: 1280px)">
     
-    <img src="images/museum" alt="museum" class="banner-image">
+    <source srcset="images/museum-480x480.jpg,
+                    images/museum-960x960.jpg 2x,
+                    images/museum-1440x1440.jpg 3x"
+            media="(min-width: 960px)">
+
+    <img src="images/museum.jpg" alt="picture of museum" class="banner-image">
 </picture>
 
   </header>
