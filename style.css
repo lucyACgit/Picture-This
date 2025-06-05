@@ -31,7 +31,12 @@ h4 {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
+
+
 
 @media (min-width: 960px) {
   .header {
